@@ -1,5 +1,4 @@
 
-```markdown
 # Store Rating System
 
 A full-stack web application that facilitates store ratings with a comprehensive Role-Based Access Control (RBAC) system. The platform serves three distinct user types: System Administrators, Store Owners, and Normal Users, each with tailored dashboards and functionalities.
