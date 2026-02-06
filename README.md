@@ -5,6 +5,9 @@ A full-stack web application that facilitates store ratings with a comprehensive
 
 Built with a focus on clean architecture, security (JWT), and a modern UI (React + Tailwind + Animations).
 
+## 🚀 Live Demo
+🔗 https://your-demo-link.com 
+
 ---
 
 ## 🚀 Features
