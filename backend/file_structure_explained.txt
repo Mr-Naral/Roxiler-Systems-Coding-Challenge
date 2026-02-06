@@ -1,0 +1,43 @@
+backend/
+├── config/
+│   └── db.js         # Database Connection & Auto-Sync
+├── models/           # Database Models (Schema)
+│   ├── User.js
+│   ├── Store.js
+│   └── Rating.js
+├── controllers/      # Logic Layer (MVC)
+│   ├── authController.js
+│   ├── adminController.js
+│   └── userController.js
+├── routes/           # API Routes
+│   ├── authRoutes.js
+│   ├── adminRoutes.js
+│   └── userRoutes.js
+├── middleware/
+│   └── authMiddleware.js
+├── .env              # Secrets
+└── server.js         # Entry Point
+
+
+
+
+
+
+
+
+
+
+/backend
+  /config
+  /controllers
+  /models
+  /routes
+  /middleware
+  server.js
+  .env
+/frontend
+  /src
+    /components
+    /pages
+    App.jsx
+    main.jsx
