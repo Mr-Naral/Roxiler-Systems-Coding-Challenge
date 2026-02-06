@@ -227,7 +227,3 @@ npm run dev
 * **Password Hashing**: All passwords are hashed using `bcryptjs` before storage.
 * **JWT Authorization**: API routes are protected using Bearer tokens.
 * **Middleware Guards**: Custom middleware ensures Users cannot access Admin routes and vice versa.
-
-```
-
-```
