@@ -10,7 +10,7 @@ export default function Register() {
 
  
   const validate = () => {
-    if (form.name.length < 20 || form.name.length > 60) return "Name must be 20-60 characters long.";
+    if (form.name.length < 10 || form.name.length > 60) return "Name must be 10-60 characters long.";
 
     const passRegex = /^(?=.*[A-Z])(?=.*[!@#$&*]).{8,16}$/;
     if (!passRegex.test(form.password)) return "Password: 8-16 chars, 1 Uppercase, 1 Special character required.";
@@ -51,7 +51,7 @@ export default function Register() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="text-slate-400 text-sm">Full Name (20-60 chars)</label>
+            <label className="text-slate-400 text-sm">Full Name (10-60 chars)</label>
             <input 
               className="w-full bg-slate-900 border border-slate-600 rounded-lg p-3 text-white focus:ring-2 focus:ring-blue-500 outline-none"
               value={form.name} onChange={e => setForm({...form, name: e.target.value})}

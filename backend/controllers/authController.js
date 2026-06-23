@@ -7,7 +7,7 @@ exports.register = async (req, res) => {
         const { name, email, password, address, role } = req.body;
 
 
-        if (name.length < 20 || name.length > 60) return res.status(400).json({ msg: "Name must be 20-60 chars" });
+        if (name.length < 10 || name.length > 60) return res.status(400).json({ msg: "Name must be 10-60 chars" });
         if (!password.match(/^(?=.*[A-Z])(?=.*[!@#$&*]).{8,16}$/)) 
             return res.status(400).json({ msg: "Password must be 8-16 chars, 1 Uppercase, 1 Special" });
 
